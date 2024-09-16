@@ -83,6 +83,7 @@ nav {
   justify-content: center;
   gap: 20%;
   border-radius: 10px;
+  cursor: pointer;
 }
 .sb_section2,
 .sb_section1 {
@@ -169,6 +170,7 @@ nav {
   height: 100%;
   border-radius: 60% 40% 34% 66% / 37% 50% 50% 63%;
   object-fit: cover;
+  cursor: pointer;
 }
 .restaurant_image p {
   /* display: inline-block; */
@@ -181,6 +183,7 @@ nav {
   font-weight: 600;
   border-radius: 1rem;
   font-size: 1.6rem;
+  cursor: pointer;
 }
 .anything_delivered_h2 {
   margin-top: 15rem;
@@ -214,6 +217,9 @@ nav {
   font-weight: 600;
   cursor: pointer;
 }
+.delivery_section p {
+  font-size: 1.6rem;
+}
 /* ------------- END OF RESTAURANT --------------- */
 /* ---------------------- COUNTRY ---------------------- */
 .country {
@@ -246,6 +252,7 @@ nav {
   margin: 0 1rem;
   background-color: #fff3daff;
   border-radius: 2rem;
+  cursor: pointer;
 }
 /* ------------------ END OF COUNTRY ------------------ */
 /* ---------------------- COUNTRY ---------------------- */
@@ -272,6 +279,9 @@ nav {
   justify-content: center;
   align-items: center;
   gap: 2rem;
+}
+.button img {
+  cursor: pointer;
 }
 .download_section2 {
   width: 45%;
@@ -339,6 +349,7 @@ nav {
   border: none;
   border-radius: 2rem;
   margin-top: 2.5rem;
+  cursor: pointer;
 }
 /* -------------------  END OF JOINUS ----------------- */
 /* ---------------------- FOOTER ---------------------- */
@@ -347,7 +358,7 @@ footer {
 }
 .wave6 {
   margin-top: -1rem;
-  margin-bottom: -0.2rem;
+  margin-bottom: -0.3rem;
   padding-bottom: 0;
 }
 .footer_img {
@@ -379,6 +390,10 @@ footer {
 }
 .sectionsec1 p {
   font-size: 1.4rem;
+  cursor: pointer;
+}
+.sectionsec1 img {
+  cursor: pointer;
 }
 .footer select {
   font-size: 1.6rem;
